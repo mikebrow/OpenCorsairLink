@@ -14,6 +14,12 @@ OpenCorsairLink is a status & control utility that interacts with CorsairLink pr
 $ make
 $ sudo make install
 ```
+### FreeBSD Requirements
+Use the pkg tool to install:
+* gmake
+* pkgconf
+
+** Note: Freebsd's make is not gnu compatible, so we have to use gmake instead of make here. 
 
 ## Usage
 Since the program needs direct hardware access you should run this with 'sudo' or as root.  
